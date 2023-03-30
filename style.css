@@ -1,25 +1,93 @@
-* {
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  }
+  body{
     background-color: blue;
+    color: white;
+  }
 
-}
 
-.container {
-    width: 80%;
-    margin: 3rem auto;
-}
-
-.row {
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
+  .container{
     display: flex;
     flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  
+  .box{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
     justify-content: center;
-}
+    align-items: center;
+    background-color: rgb(104, 245, 255);
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: black;
+    font-size: 1.1rem;
+  }
+  
+  .fizz{
+    background-color: yellow;
+  }
+  
+  .buzz{
+    background-color: orange;
+  }
+  
+  .fizzbuzz{
+    background-color: red;
+    color: white;
+  }
 
-.card {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(17, 120, 255);
-    
-}
+
+
+  .multiples {
+    margin-left: 300px;
+    margin-top:  15px;
+  }
+
+  .multiples-three {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 80px;
+   background-color: yellow;
+   color: #000;
+    margin-left: 100px;
+    margin-right: 50px;
+   display: inline;
+
+  }
+
+  .multiples-five {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 80px;
+   background-color: orange;
+   color: #000;
+   margin-right: 50px;
+   display: inline;
+   
+  }
+
+  .multiples-three-five {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 80px;
+   background-color: red;
+   color: #000;
+   display: inline;
+  }
